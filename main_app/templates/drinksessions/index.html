@@ -7,6 +7,7 @@
 
 <div class = 'index-container'>
 <span class = 'center button-holder'>
+<a class = "btn-large waves-effect blue darken-3 waves-light" href="{% url 'laws_texas' %}">View Laws</a>
 {% if user.profile.first_name%}
 <a class='btn-large waves-effect amber darken-3 waves-light' href = "{% url 'profile_update' user.profile.id  %}"><i class = 'material-icons right'>edit</i> Update my Profile</a>
 {% else %}
