@@ -2,7 +2,7 @@
 
 Created By | Last Updated
 -----------|--------------
-Salma Khan | January 3, 2020
+Salma Khan | January 5, 2020
 Alban Xhaferllari | January 3, 2020
 Alex Perkowski | January 3, 2020
 Gerardo Mendoza | January 3, 2020
@@ -41,6 +41,7 @@ Safe Night Out is a remote collaborative group project created by Alban Xhalfera
 * Django Authentication
 * Materialize CSS Framework
 * Django Template Language (DTL)
+* Bokeh 1.4.0
 
 
 ## Link to the deployed application in Heroku
