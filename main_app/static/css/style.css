@@ -10,9 +10,27 @@ body {
 
 main {
     flex: 1 0 auto;
+
 }
 
 footer.page-footer {
     padding-top: 0;
     text-align: right;
+}
+
+.button-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.index-container {
+    display: flex;
+    flex-direction: column
+}
+
+.session-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

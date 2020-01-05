@@ -3,34 +3,43 @@
 
 <h1 class = 'center blue-text text-darken-4'>Welcome back, {{user.profile.first_name}} {{user.profile.last_name}}</h1>
 
+<br>
 
-
+<div class = 'index-container'>
+<span class = 'center button-holder'>
 {% if user.profile.first_name%}
-<a class='btn-large waves-effect waves-light' href = "{% url 'profile_update' user.profile.id  %}">Update my Profile</a>
+<a class='btn-large waves-effect amber darken-3 waves-light' href = "{% url 'profile_update' user.profile.id  %}"><i class = 'material-icons right'>edit</i> Update my Profile</a>
 {% else %}
-<a class='btn-large waves-effect waves-light' href = "{% url 'profile_create' %}">Create my Profile</a>
+<a class='btn-large waves-effect green waves-light' href = "{% url 'profile_create' %}">Create my Profile</a>
 {% endif %} 
 
+
+
+  <a class= 'btn-large blue darken-4 waves-effect waves-light' href="{% url 'drinksessions_create' %}"><i class='material-icons right'>add</i>Add a Session?</a>
+</span>
+
 <br>
+<br>
+
 {% for s in session %}
-<div>
+<div class = 'session-container'>
+
   <a href="{% url 'detail' s.id %}">
     <div class="card">
         <div class="card-content black-text">
             <span class="card-title">Date: {{ s.start_time }}</span>
             <p>Duration: {{ s.duration }} minutes</p>
-            <p>Drinks: {{s.drinks}}</p>
             <br>
         </div>
     </div>
   </a>
+  </div>
+  
   <br>
 
 {% endfor %}
-
-<div class = 'center'>
-  <a class= 'btn-large blue darken-4 waves-effect waves-light' href="{% url 'drinksessions_create' %}"><i class='material-icons right'>add</i>Add a Session?</a>
 </div>
+
 
 
 
