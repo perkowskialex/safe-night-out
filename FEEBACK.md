@@ -4,19 +4,19 @@
 
 ### Your App Must:
 
-[x] Be a full-stack **Django** application.
+- [X] Be a full-stack **Django** application.
 
-[X] Persist data in **PostreSQL**.
+- [X] Persist data in **PostreSQL**.
 
-[X] **Authenticate users using Django's built-in authentication**.
+- [X] **Authenticate users using Django's built-in authentication**.
 
-[X] **Implement authorization by restricting access to the Creation, Updating & Deletion of resources.**
+- [X] **Implement authorization by restricting access to the Creation, Updating & Deletion of resources.**
 
-[X] Be **deployed online** using **Heroku**.
+- [X] Be **deployed online** using **Heroku**.
 
 #### The app may optionally:
 
-[X] Consume data from a third-party API.
+- [X] Consume data from a third-party API.
 
 
 #### Summary
