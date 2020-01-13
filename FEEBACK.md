@@ -6,7 +6,7 @@
 
 - [X] Be a full-stack **Django** application.
 
-- [X] Persist data in **PostreSQL**.
+- [X] Persist data in **PostgreSQL**.
 
 - [X] **Authenticate users using Django's built-in authentication**.
 
